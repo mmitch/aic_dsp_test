@@ -1,3 +1,11 @@
+/*
+ *
+ * 2010 (c) by Christian Klippel
+ *
+ * licensed under GNU GPL
+ *
+ */
+
 #ifndef AIC14_IOCTL_H
 #define AIC14_IOCTL_H
 

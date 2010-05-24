@@ -1,3 +1,11 @@
+/*
+ *
+ * 2010 (c) by Christian Klippel
+ *
+ * licensed under GNU GPL
+ *
+ */
+
 #include <fcntl.h>
 #include <stdio.h>
 #include <unistd.h>
