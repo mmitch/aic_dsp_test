@@ -1,0 +1,15 @@
+ARMBASE=/opt/mtwk/usr/local/gcc-3.3.2-glibc-2.3.2/arm-linux
+INCLUDEPATH=$(ARMBASE)/include -I/home/vpx500/BSP/ltib-imx21ads-20070609/rootfs/usr/src/linux/include
+LIBPATH=$(ARMBASE)/arm-linux/lib
+ARMPATH=$(ARMBASE)/bin
+TOOLPREFIX=/arm-linux-
+
+CC=$(ARMPATH)$(TOOLPREFIX)gcc
+CPP=$(ARMPATH)$(TOOLPREFIX)g++
+AS=$(ARMPATH)$(TOOLPREFIX)as
+LD=$(ARMPATH)$(TOOLPREFIX)gcc
+OC=$(ARMPATH)$(TOOLPREFIX)objcopy
+OD=$(ARMPATH)$(TOOLPREFIX)objdump
+
+#CPUFLAGS=-march=armv5 -mtune=arm9tdmi -Uarm -msoft-float
+CPUFLAGS=-march=armv5 -mtune=arm9tdmi -Uarm
