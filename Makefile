@@ -11,7 +11,8 @@ TOOLPREFIX=/arm-linux-
 ###############################################################
 
 CC=$(ARMPATH)$(TOOLPREFIX)gcc
-CPP=$(ARMPATH)$(TOOLPREFIX)g++
+CPP=$(ARMPATH)$(TOOLPREFIX)cpp
+CXX=$(ARMPATH)$(TOOLPREFIX)g++
 AS=$(ARMPATH)$(TOOLPREFIX)as
 LD=$(ARMPATH)$(TOOLPREFIX)gcc
 OC=$(ARMPATH)$(TOOLPREFIX)objcopy
